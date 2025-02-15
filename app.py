@@ -40,7 +40,7 @@ app.add_middleware(
 
 
 app = FastAPI()
-load_.env()
+load_dotenv()
 
 @app.get('/ask')
 def ask(prompt: str):

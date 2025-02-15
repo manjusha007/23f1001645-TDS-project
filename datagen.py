@@ -1,6 +1,6 @@
 # DISCLAIMER: THIS SCRIPT WILL CHANGE BEFORE THE EVALUATION. TREAT THIS AS A GUIDE.
 
-# Usage: uv run datagen.py <email>
+# Usage: uv run datagen.py <23f1001645@ds.study.iitm.ac.in>
 
 # /// script
 # requires-python = ">=3.13"
@@ -34,14 +34,12 @@ def write_file(path, content):
 
 def get_markdown(email):
     return f"""#Unformatted Markdown
-
+23f1001645@
 This  is a sample paragraph with extra  spaces and trailing whitespace.
 -   First item
 -    Second item
 +Third item
-    *    Fourth item
-
-```py
+    *    Fourt
 print("{email}")
 
 ```
